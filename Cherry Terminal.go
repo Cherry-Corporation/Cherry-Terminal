@@ -203,7 +203,7 @@ func createDefaultConfig() Config {
         WgetEnabled:     true,
     }
 
-    configJson, err := json.Marshal(config)
+    configJson, err := json.MarshalIndent(config, "", "  ")
     if err != nil {
         color.Red("Failed to create default config: %v\n", err)
         os.Exit(1)
@@ -221,7 +221,7 @@ func createDefaultConfig() Config {
 func createDefaultThemes() {
     themes := map[string]Theme{
         "light": {
-            TextColor:      "black",
+            TextColor:      "white",
             BackgroundColor: "white",
             PromptColor:    "blue",
             ErrorColor:     "red",
@@ -237,7 +237,7 @@ func createDefaultThemes() {
     }
 
     for themeName, theme := range themes {
-        themeJson, err := json.Marshal(theme)
+        themeJson, err := json.MarshalIndent(theme, "", "  ")
         if err != nil {
             color.Red("Failed to create %s theme: %v\n", themeName, err)
             os.Exit(1)
@@ -250,6 +250,7 @@ func createDefaultThemes() {
         }
     }
 }
+
 
 func loadConfig() (Config, Theme) {
     var config Config
@@ -283,6 +284,11 @@ func loadTheme(themeName string) Theme {
     if err != nil {
         // If the theme file does not exist, create default ones
         if os.IsNotExist(err) {
+            // Create directory if not exist
+            if _, err := os.Stat("themes"); os.IsNotExist(err) {
+                os.Mkdir("themes", 0755)
+            }
+            // Create default themes
             createDefaultThemes()
             return loadTheme(themeName)
         } else {

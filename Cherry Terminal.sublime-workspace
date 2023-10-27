@@ -7,6 +7,76 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Cherry Terminal.go",
+			"settings":
+			{
+				"buffer_size": 8089,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGERAAAAAAAAYREAAAAAAAANBAAAZnVuYyBjcmVhdGVEZWZhdWx0Q29uZmlnKCkgQ29uZmlnIHsKICAgIGNvbmZpZyA6PSBDb25maWd7CiAgICAgICAgUHJvbXB0OiAgICAgICAgICAiJCIsCiAgICAgICAgSW5pdGlhbENvbW1hbmRzOiBbXXN0cmluZ3t9LAogICAgICAgIFRoZW1lOiAgICAgICAgICAgImxpZ2h0IiwKICAgICAgICBXZ2V0RW5hYmxlZDogICAgIHRydWUsCiAgICB9CgogICAgY29uZmlnSnNvbiwgZXJyIDo9IGpzb24uTWFyc2hhbChjb25maWcpCiAgICBpZiBlcnIgIT0gbmlsIHsKICAgICAgICBjb2xvci5SZWQoIkZhaWxlZCB0byBjcmVhdGUgZGVmYXVsdCBjb25maWc6ICV2XG4iLCBlcnIpCiAgICAgICAgb3MuRXhpdCgxKQogICAgfQoKICAgIGVyciA9IGlvdXRpbC5Xcml0ZUZpbGUoImNvbmZpZy5qc29uIiwgY29uZmlnSnNvbiwgMDY0NCkKICAgIGlmIGVyciAhPSBuaWwgewogICAgICAgIGNvbG9yLlJlZCgiRmFpbGVkIHRvIHdyaXRlIGRlZmF1bHQgY29uZmlnIGZpbGU6ICV2XG4iLCBlcnIpCiAgICAgICAgb3MuRXhpdCgxKQogICAgfQoKICAgIHJldHVybiBjb25maWcKfQoKZnVuYyBjcmVhdGVEZWZhdWx0VGhlbWVzKCkgewogICAgdGhlbWVzIDo9IG1hcFtzdHJpbmddVGhlbWV7CiAgICAgICAgImxpZ2h0IjogewogICAgICAgICAgICBUZXh0Q29sb3I6ICAgICAgImJsYWNrIiwKICAgICAgICAgICAgQmFja2dyb3VuZENvbG9yOiAid2hpdGUiLAogICAgICAgICAgICBQcm9tcHRDb2xvcjogICAgImJsdWUiLAogICAgICAgICAgICBFcnJvckNvbG9yOiAgICAgInJlZCIsCiAgICAgICAgICAgIE91dHB1dENvbG9yOiAgICAiZ3JlZW4iLAogICAgICAgIH0sCiAgICAgICAgImRhcmsiOiB7CiAgICAgICAgICAgIFRleHRDb2xvcjogICAgICAid2hpdGUiLAogICAgICAgICAgICBCYWNrZ3JvdW5kQ29sb3I6ICJibGFjayIsCiAgICAgICAgICAgIFByb21wdENvbG9yOiAgICAiY3lhbiIsCiAgICAgICAgICAgIEVycm9yQ29sb3I6ICAgICAicmVkIiwKICAgICAgICAgICAgT3V0cHV0Q29sb3I6ICAgICJncmVlbiIsCiAgICAgICAgfSwKICAgIH0",
+					"AQAAAAAAAAABAAAAYREAAAAAAABuFQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"paste",
+					null,
+					"AQAAAGERAAAAAAAAShcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYREAAAAAAABhEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					6,
+					"left_delete",
+					null,
+					"BgAAAFEXAAAAAAAAURcAAAAAAAC1AQAAb3IgdGhlbWVOYW1lLCB0aGVtZSA6PSByYW5nZSB0aGVtZXMgewogICAgICAgIHRoZW1lSnNvbiwgZXJyIDo9IGpzb24uTWFyc2hhbCh0aGVtZSkKICAgICAgICBpZiBlcnIgIT0gbmlsIHsKICAgICAgICAgICAgY29sb3IuUmVkKCJGYWlsZWQgdG8gY3JlYXRlICVzIHRoZW1lOiAldlxuIiwgdGhlbWVOYW1lLCBlcnIpCiAgICAgICAgICAgIG9zLkV4aXQoMSkKICAgICAgICB9CgogICAgICAgIGVyciA9IGlvdXRpbC5Xcml0ZUZpbGUoInRoZW1lcy8iICsgdGhlbWVOYW1lICsgIi5qc29uIiwgdGhlbWVKc29uLCAwNjQ0KQogICAgICAgIGlmIGVyciAhPSBuaWwgewogICAgICAgICAgICBjb2xvci5SZWQoIkZhaWxlZCB0byB3cml0ZSAlcyB0aGVtZSBmaWxlOiAldlxuIiwgdGhlbWVOYW1lLCBlcnIpCiAgICAgICAgICAgIG9zLkV4aXQoMSkKICAgICAgICB9CiAgICB9Cn1QFwAAAAAAAFAXAAAAAAAAAQAAAGZPFwAAAAAAAE8XAAAAAAAAAQAAACBOFwAAAAAAAE4XAAAAAAAAAQAAACBNFwAAAAAAAE0XAAAAAAAAAQAAACBMFwAAAAAAAEwXAAAAAAAAAQAAACA",
+					"AQAAAAAAAAABAAAABhkAAAAAAABRFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEsXAAAAAAAASxcAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAATBcAAAAAAABMFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AgAAAMYZAAAAAAAAOhwAAAAAAAAAAAAAOhwAAAAAAAA6HAAAAAAAAHQCAABmdW5jIGxvYWRUaGVtZSh0aGVtZU5hbWUgc3RyaW5nKSBUaGVtZSB7CiAgICB2YXIgdGhlbWUgVGhlbWUKCiAgICBmaWxlLCBlcnIgOj0gaW91dGlsLlJlYWRGaWxlKCJ0aGVtZXMvIiArIHRoZW1lTmFtZSArICIuanNvbiIpCiAgICBpZiBlcnIgIT0gbmlsIHsKICAgICAgICAvLyBJZiB0aGUgdGhlbWUgZmlsZSBkb2VzIG5vdCBleGlzdCwgY3JlYXRlIGRlZmF1bHQgb25lcwogICAgICAgIGlmIG9zLklzTm90RXhpc3QoZXJyKSB7CiAgICAgICAgICAgIGNyZWF0ZURlZmF1bHRUaGVtZXMoKQogICAgICAgICAgICByZXR1cm4gbG9hZFRoZW1lKHRoZW1lTmFtZSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBjb2xvci5SZWQoIkZhaWxlZCB0byByZWFkIHRoZW1lIGZpbGU6ICV2IiwgZXJyKQogICAgICAgICAgICBvcy5FeGl0KDEpCiAgICAgICAgfQogICAgfSBlbHNlIHsKICAgICAgICBlcnIgPSBqc29uLlVubWFyc2hhbChmaWxlLCAmdGhlbWUpCiAgICAgICAgaWYgZXJyICE9IG5pbCB7CiAgICAgICAgICAgIGNvbG9yLlJlZCgiRmFpbGVkIHRvIHBhcnNlIHRoZW1lIGZpbGU6ICV2IiwgZXJyKQogICAgICAgICAgICBvcy5FeGl0KDEpCiAgICAgICAgfQogICAgfQoKICAgIHJldHVybiB0aGVtZQp9",
+					"AQAAAAAAAAABAAAAxhkAAAAAAAA6HAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"paste",
+					null,
+					"AgAAAMYZAAAAAAAABB0AAAAAAAAAAAAABB0AAAAAAAAEHQAAAAAAAHQCAABmdW5jIGxvYWRUaGVtZSh0aGVtZU5hbWUgc3RyaW5nKSBUaGVtZSB7CiAgICB2YXIgdGhlbWUgVGhlbWUKCiAgICBmaWxlLCBlcnIgOj0gaW91dGlsLlJlYWRGaWxlKCJ0aGVtZXMvIiArIHRoZW1lTmFtZSArICIuanNvbiIpCiAgICBpZiBlcnIgIT0gbmlsIHsKICAgICAgICAvLyBJZiB0aGUgdGhlbWUgZmlsZSBkb2VzIG5vdCBleGlzdCwgY3JlYXRlIGRlZmF1bHQgb25lcwogICAgICAgIGlmIG9zLklzTm90RXhpc3QoZXJyKSB7CiAgICAgICAgICAgIGNyZWF0ZURlZmF1bHRUaGVtZXMoKQogICAgICAgICAgICByZXR1cm4gbG9hZFRoZW1lKHRoZW1lTmFtZSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBjb2xvci5SZWQoIkZhaWxlZCB0byByZWFkIHRoZW1lIGZpbGU6ICV2IiwgZXJyKQogICAgICAgICAgICBvcy5FeGl0KDEpCiAgICAgICAgfQogICAgfSBlbHNlIHsKICAgICAgICBlcnIgPSBqc29uLlVubWFyc2hhbChmaWxlLCAmdGhlbWUpCiAgICAgICAgaWYgZXJyICE9IG5pbCB7CiAgICAgICAgICAgIGNvbG9yLlJlZCgiRmFpbGVkIHRvIHBhcnNlIHRoZW1lIGZpbGU6ICV2IiwgZXJyKQogICAgICAgICAgICBvcy5FeGl0KDEpCiAgICAgICAgfQogICAgfQoKICAgIHJldHVybiB0aGVtZQp9",
+					"AQAAAAAAAAABAAAAOhwAAAAAAADGGQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "white"
+					},
+					"BgAAAAAUAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABFAAAAAAAAAUAAABibGFjawEUAAAAAAAAAhQAAAAAAAAAAAAAAhQAAAAAAAADFAAAAAAAAAAAAAADFAAAAAAAAAQUAAAAAAAAAAAAAAQUAAAAAAAABRQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAABQAAAAAAAAFFAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -45,16 +115,16 @@
 	"expanded_folders":
 	[
 		"/C/Users/andre/Desktop/Cherry Terminal",
-		"/C/Users/andre/Desktop/Cherry Terminal/.github",
-		"/C/Users/andre/Desktop/Cherry Terminal/.github/workflows",
 		"/C/Users/andre/Desktop/Cherry Terminal/Assets",
 		"/C/Users/andre/Desktop/Cherry Terminal/themes"
 	],
 	"file_history":
 	[
+		"/C/Users/andre/Desktop/New folder/packages/config.json",
+		"/C/Users/andre/Desktop/New folder/packages/themes/light.json",
+		"/C/Users/andre/Desktop/New folder/packages/themes/dark.json",
 		"/C/Users/andre/Desktop/Cherry Terminal/Cherry Terminal.go",
 		"/C/Users/andre/Desktop/New folder/Pkg.go",
-		"/C/Users/andre/Desktop/New folder/packages/config.json",
 		"/C/Users/andre/Desktop/Cherry Terminal/config.json",
 		"/C/Users/andre/Desktop/Cherry Terminal/.gitignore",
 		"/C/Users/andre/Desktop/Cherry Terminal/Cherry Terminal.sublime-project",
@@ -99,6 +169,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Cherry Terminal.go",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5448,
+								5448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3695.12727273,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
