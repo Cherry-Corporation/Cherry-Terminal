@@ -18,6 +18,11 @@ import (
 	"github.com/shirou/gopsutil/v3/disk"
 	"github.com/shirou/gopsutil/v3/host"
 	"github.com/shirou/gopsutil/v3/mem"
+	"context"
+	"log"
+	"path/filepath"
+
+	"github.com/google/go-github/github"
 )
 
 type Config struct {
@@ -33,6 +38,72 @@ type Theme struct {
 	PromptColor    string `json:"promptColor"`
 	ErrorColor     string `json:"errorColor"`
 	OutputColor    string `json:"outputColor"`
+}
+type PackageManager struct {
+	client *github.Client
+}
+
+func NewPackageManager() *PackageManager {
+	return &PackageManager{
+		client: github.NewClient(nil),
+	}
+}
+func DownloadFile(url string, filepath string) error {
+	if _, err := os.Stat(filepath); err == nil {
+		log.Printf("File %s already exists. Skipping download.\n", filepath)
+		return nil
+	} else if !os.IsNotExist(err) {
+		// Some other error occurred
+		return fmt.Errorf("Failed to check if file exists: %w", err)
+	}
+
+	resp, err := http.Get(url)
+	if err != nil {
+		return fmt.Errorf("Failed to make a GET request: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return fmt.Errorf("Non-OK HTTP status: %s", resp.Status)
+	}
+
+	out, err := os.Create(filepath)
+	if err != nil {
+		return fmt.Errorf("Failed to create file: %w", err)
+	}
+	defer out.Close()
+
+	_, err = io.Copy(out, resp.Body)
+	if err != nil {
+		return fmt.Errorf("Failed to write to file: %w", err)
+	}
+
+	return nil
+}
+func (pm *PackageManager) Install(user string, repo string) error {
+	log.Printf("Fetching releases for repository: %s/%s\n", user, repo)
+	releases, _, err := pm.client.Repositories.ListReleases(context.Background(), user, repo, nil)
+	if err != nil {
+		return fmt.Errorf("Failed to list releases: %w", err)
+	}
+
+	if len(releases) == 0 {
+		return fmt.Errorf("No releases found for repository %s/%s", user, repo)
+	}
+
+	latestRelease := releases[0]
+	for _, asset := range latestRelease.Assets {
+		if strings.HasSuffix(*asset.Name, ".exe") {
+			log.Printf("Downloading asset: %s\n", *asset.Name)
+			err = DownloadFile(asset.GetBrowserDownloadURL(), filepath.Join("packages", *asset.Name))
+			if err != nil {
+				return fmt.Errorf("Failed to download file: %w", err)
+			}
+			break
+		}
+	}
+
+	return nil
 }
 
 func main() {
@@ -326,6 +397,27 @@ func executeCommand(input string, theme Theme) {
 		verfetch()
 	case "ip": // add this case
 		printMainIP()
+	case "pkg":
+		if len(args) < 3 {
+			getColor(theme.ErrorColor).Printf("pkg command requires at least two arguments: install user/repo\n")
+			return
+		}
+		if strings.ToLower(args[1]) != "install" {
+			getColor(theme.ErrorColor).Printf("Unknown pkg command: %s\n", args[1])
+			return
+		}
+		parts := strings.Split(args[2], "/")
+		if len(parts) != 2 {
+			getColor(theme.ErrorColor).Printf("Invalid repository format. It should be user/repo\n")
+			return
+		}
+		pm := NewPackageManager()
+		err := pm.Install(parts[0], parts[1])
+		if err != nil {
+			getColor(theme.ErrorColor).Printf("Failed to install: %v\n", err)
+			return
+		}
+		getColor(theme.OutputColor).Printf("Package installation complete\n")
 	default:
 		cmd := exec.Command("cmd", "/C", input)
 		output, err := cmd.CombinedOutput()
