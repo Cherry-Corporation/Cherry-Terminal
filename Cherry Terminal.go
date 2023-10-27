@@ -49,36 +49,42 @@ func NewPackageManager() *PackageManager {
 	}
 }
 func DownloadFile(url string, filepath string) error {
-	if _, err := os.Stat(filepath); err == nil {
-		log.Printf("File %s already exists. Skipping download.\n", filepath)
-		return nil
-	} else if !os.IsNotExist(err) {
-		// Some other error occurred
-		return fmt.Errorf("Failed to check if file exists: %w", err)
-	}
+    dir := path.Dir(filepath)
 
-	resp, err := http.Get(url)
-	if err != nil {
-		return fmt.Errorf("Failed to make a GET request: %w", err)
-	}
-	defer resp.Body.Close()
+    if _, err := os.Stat(dir); os.IsNotExist(err) {
+        os.MkdirAll(dir, 0755)
+    }
 
-	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("Non-OK HTTP status: %s", resp.Status)
-	}
+    if _, err := os.Stat(filepath); err == nil {
+        log.Printf("File %s already exists. Skipping download.\n", filepath)
+        return nil
+    } else if !os.IsNotExist(err) {
+        // Some other error occurred
+        return fmt.Errorf("Failed to check if file exists: %w", err)
+    }
 
-	out, err := os.Create(filepath)
-	if err != nil {
-		return fmt.Errorf("Failed to create file: %w", err)
-	}
-	defer out.Close()
+    resp, err := http.Get(url)
+    if err != nil {
+        return fmt.Errorf("Failed to make a GET request: %w", err)
+    }
+    defer resp.Body.Close()
 
-	_, err = io.Copy(out, resp.Body)
-	if err != nil {
-		return fmt.Errorf("Failed to write to file: %w", err)
-	}
+    if resp.StatusCode != http.StatusOK {
+        return fmt.Errorf("Non-OK HTTP status: %s", resp.Status)
+    }
 
-	return nil
+    out, err := os.Create(filepath)
+    if err != nil {
+        return fmt.Errorf("Failed to create file: %w", err)
+    }
+    defer out.Close()
+
+    _, err = io.Copy(out, resp.Body)
+    if err != nil {
+        return fmt.Errorf("Failed to write to file: %w", err)
+    }
+
+    return nil
 }
 func (pm *PackageManager) Install(user string, repo string) error {
 	log.Printf("Fetching releases for repository: %s/%s\n", user, repo)
@@ -95,6 +101,11 @@ func (pm *PackageManager) Install(user string, repo string) error {
 	for _, asset := range latestRelease.Assets {
 		if strings.HasSuffix(*asset.Name, ".exe") {
 			log.Printf("Downloading asset: %s\n", *asset.Name)
+			// Create directory if it does not exist
+			err := os.MkdirAll("packages", 0755)
+			if err != nil {
+				return fmt.Errorf("Failed to create directory: %w", err)
+			}
 			err = DownloadFile(asset.GetBrowserDownloadURL(), filepath.Join("packages", *asset.Name))
 			if err != nil {
 				return fmt.Errorf("Failed to download file: %w", err)
@@ -111,7 +122,7 @@ func main() {
 
 	// Print welcome message and set terminal title
 	getColor(theme.TextColor).Printf("\033]0;Cherry Terminal v1.0\007")
-	getColor(theme.TextColor).Printf("Welcome to Cherry Terminal v1.0 beta\n\n")
+	getColor(theme.TextColor).Printf("Welcome to Cherry Terminal v1.0 beta 3\n\n")
 
 	// Execute initial commands
 	for _, command := range config.InitialCommands {
