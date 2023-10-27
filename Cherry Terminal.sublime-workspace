@@ -1,0 +1,755 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Cherry Terminal.go",
+			"settings":
+			{
+				"buffer_size": 7854,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					5,
+					"left_delete",
+					null,
+					"BQAAAIsDAAAAAAAAiwMAAAAAAAABAAAAYYoDAAAAAAAAigMAAAAAAAABAAAAaIkDAAAAAAAAiQMAAAAAAAABAAAAcIgDAAAAAAAAiAMAAAAAAAABAAAAbIcDAAAAAAAAhwMAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAAjAMAAAAAAACMAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "B"
+					},
+					"AQAAAIcDAAAAAAAAiAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhwMAAAAAAACHAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIcDAAAAAAAAhwMAAAAAAAABAAAAQg",
+					"AQAAAAAAAAABAAAAiAMAAAAAAACIAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "beta"
+					},
+					"BAAAAIcDAAAAAAAAiAMAAAAAAAAAAAAAiAMAAAAAAACJAwAAAAAAAAAAAACJAwAAAAAAAIoDAAAAAAAAAAAAAIoDAAAAAAAAiwMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhwMAAAAAAACHAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIoDAAAAAAAAigMAAAAAAAABAAAAYYkDAAAAAAAAiQMAAAAAAAABAAAAdA",
+					"AQAAAAAAAAABAAAAiwMAAAAAAACLAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "ta"
+					},
+					"AgAAAIkDAAAAAAAAigMAAAAAAAAAAAAAigMAAAAAAACLAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiQMAAAAAAACJAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "beta"
+					},
+					"BQAAANUDAAAAAAAA1gMAAAAAAAAAAAAA1gMAAAAAAADWAwAAAAAAAAUAAABhbHBoYdYDAAAAAAAA1wMAAAAAAAAAAAAA1wMAAAAAAADYAwAAAAAAAAAAAADYAwAAAAAAANkDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1QMAAAAAAADaAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIcDAAAAAAAAhwMAAAAAAAAEAAAAYmV0YYYDAAAAAAAAhgMAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAhwMAAAAAAACLAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"paste",
+					null,
+					"AgAAAC4SAAAAAAAA5hQAAAAAAAAAAAAA5hQAAAAAAADmFAAAAAAAAGYCAABmdW5jIGV4ZWN1dGVDb21tYW5kKGlucHV0IHN0cmluZywgdGhlbWUgVGhlbWUpIHsKCWFyZ3MgOj0gc3RyaW5ncy5TcGxpdChpbnB1dCwgIiAiKQoKCXN3aXRjaCBzdHJpbmdzLlRvTG93ZXIoYXJnc1swXSkgewoJY2FzZSAiZXhpdCI6CgkJb3MuRXhpdCgwKQoJY2FzZSAid2dldCI6CgkJaWYgbGVuKGFyZ3MpICE9IDIgewoJCQlnZXRDb2xvcih0aGVtZS5FcnJvckNvbG9yKS5QcmludGYoIndnZXQgY29tbWFuZCByZXF1aXJlcyBhIFVSTFxuIikKCQkJcmV0dXJuCgkJfQoJCXdnZXQoYXJnc1sxXSkKCWNhc2UgImxzIjoKCQlscygpCgljYXNlICJoZWxwIjoKCQloZWxwKCkKCWNhc2UgInZlcmZldGNoIjoKCQl2ZXJmZXRjaCgpCglkZWZhdWx0OgoJCWNtZCA6PSBleGVjLkNvbW1hbmQoImNtZCIsICIvQyIsIGlucHV0KQoJCW91dHB1dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCgkJaWYgZXJyICE9IG5pbCB7CgkJCWdldENvbG9yKHRoZW1lLkVycm9yQ29sb3IpLlByaW50ZigiRXJyb3I6IEludmFsaWQgY29tbWFuZCEgJXYiLCAiXG4iKQoJCQlyZXR1cm4KCQl9CgkJZ2V0Q29sb3IodGhlbWUuT3V0cHV0Q29sb3IpLlByaW50ZigiJXMiLCBzdHJpbmcob3V0cHV0KSkKCX0KfQ",
+					"AQAAAAAAAAABAAAALhIAAAAAAACUFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"paste",
+					null,
+					"AQAAAGEPAAAAAAAAIxAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQ8AAAAAAABhDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAACMQAAAAAAAAJBAAAAAAAAAAAAAAJBAAAAAAAAAlEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIxAAAAAAAAAjEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAGAPAAAAAAAAYQ8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYA8AAAAAAABgDwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": "\n@"
+					},
+					"AwAAAI0AAAAAAAAAjgAAAAAAAAAAAAAAjgAAAAAAAACPAAAAAAAAAAAAAACPAAAAAAAAAJAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjQAAAAAAAACNAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"left_delete",
+					null,
+					"AQAAAI8AAAAAAAAAjwAAAAAAAAABAAAAQA",
+					"AQAAAAAAAAABAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAI8AAAAAAAAAkQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjwAAAAAAAACPAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "fmt"
+					},
+					"AwAAAJAAAAAAAAAAkQAAAAAAAAAAAAAAkQAAAAAAAACSAAAAAAAAAAAAAACSAAAAAAAAAJMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAJQAAAAAAAAAlQAAAAAAAAAAAAAAlQAAAAAAAACWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAJYAAAAAAAAAmAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlgAAAAAAAACWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": "time"
+					},
+					"BAAAAJcAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACZAAAAAAAAAAAAAACZAAAAAAAAAJoAAAAAAAAAAAAAAJoAAAAAAAAAmwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlwAAAAAAAACXAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "time"
+					},
+					"BQAAALsPAAAAAAAAvA8AAAAAAAAAAAAAvA8AAAAAAAC8DwAAAAAAAAQAAABkYXRlvA8AAAAAAAC9DwAAAAAAAAAAAAC9DwAAAAAAAL4PAAAAAAAAAAAAAL4PAAAAAAAAvw8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuw8AAAAAAAC/DwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					10,
+					"left_delete",
+					null,
+					"CgAAACUQAAAAAAAAJRAAAAAAAAABAAAAICQQAAAAAAAAJBAAAAAAAAABAAAAMiMQAAAAAAAAIxAAAAAAAAABAAAAMCIQAAAAAAAAIhAAAAAAAAABAAAALSEQAAAAAAAAIRAAAAAAAAABAAAAMSAQAAAAAAAAIBAAAAAAAAABAAAAMB8QAAAAAAAAHxAAAAAAAAABAAAALR4QAAAAAAAAHhAAAAAAAAABAAAANh0QAAAAAAAAHRAAAAAAAAABAAAAMBwQAAAAAAAAHBAAAAAAAAABAAAAMA",
+					"AQAAAAAAAAABAAAAJhAAAAAAAAAmEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					53,
+					1,
+					"left_delete",
+					null,
+					"AQAAABsQAAAAAAAAGxAAAAAAAAABAAAAMg",
+					"AQAAAAAAAAABAAAAHBAAAAAAAAAcEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPQPAAAAAAAA9A8AAAAAAAAKAAAAIGRhdGUgYW5kIA",
+					"AQAAAAAAAAABAAAA/g8AAAAAAAD0DwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPQPAAAAAAAA9Q8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9A8AAAAAAAD0DwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": "time"
+					},
+					"BQAAAIMUAAAAAAAAhBQAAAAAAAAAAAAAhBQAAAAAAACEFAAAAAAAAAQAAABkYXRlhBQAAAAAAACFFAAAAAAAAAAAAACFFAAAAAAAAIYUAAAAAAAAAAAAAIYUAAAAAAAAhxQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgxQAAAAAAACHFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					1,
+					"insert",
+					{
+						"characters": "time"
+					},
+					"BQAAAJ0UAAAAAAAAnhQAAAAAAAAAAAAAnhQAAAAAAACeFAAAAAAAAAQAAABkYXRlnhQAAAAAAACfFAAAAAAAAAAAAACfFAAAAAAAAKAUAAAAAAAAAAAAAKAUAAAAAAAAoRQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnRQAAAAAAAChFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					4,
+					"left_delete",
+					null,
+					"BAAAAL4PAAAAAAAAvg8AAAAAAAABAAAAZb0PAAAAAAAAvQ8AAAAAAAABAAAAbbwPAAAAAAAAvA8AAAAAAAABAAAAabsPAAAAAAAAuw8AAAAAAAABAAAAdA",
+					"AQAAAAAAAAABAAAAvw8AAAAAAAC/DwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					76,
+					1,
+					"insert",
+					{
+						"characters": "now"
+					},
+					"AwAAALsPAAAAAAAAvA8AAAAAAAAAAAAAvA8AAAAAAAC9DwAAAAAAAAAAAAC9DwAAAAAAAL4PAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuw8AAAAAAAC7DwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					81,
+					1,
+					"insert",
+					{
+						"characters": "now"
+					},
+					"BAAAAJwUAAAAAAAAnRQAAAAAAAAAAAAAnRQAAAAAAACdFAAAAAAAAAQAAAB0aW1lnRQAAAAAAACeFAAAAAAAAAAAAACeFAAAAAAAAJ8UAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnBQAAAAAAACgFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					86,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAJwAAAAAAAAAnQAAAAAAAAAAAAAAnQAAAAAAAACeAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnAAAAAAAAACcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					87,
+					1,
+					"paste",
+					null,
+					"AQAAAJ4AAAAAAAAAowAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngAAAAAAAACeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"paste",
+					null,
+					"AQAAACYQAAAAAAAAoREAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJhAAAAAAAAAmEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					91,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAKERAAAAAAAAohEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoREAAAAAAAChEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					94,
+					1,
+					"paste",
+					null,
+					"AgAAAHAUAAAAAAAA/xYAAAAAAAAAAAAA/xYAAAAAAAD/FgAAAAAAALcCAABmdW5jIGV4ZWN1dGVDb21tYW5kKGlucHV0IHN0cmluZywgdGhlbWUgVGhlbWUpIHsKCWFyZ3MgOj0gc3RyaW5ncy5TcGxpdChpbnB1dCwgIiAiKQoKCXN3aXRjaCBzdHJpbmdzLlRvTG93ZXIoYXJnc1swXSkgewoJY2FzZSAiZXhpdCI6CgkJb3MuRXhpdCgwKQoJY2FzZSAid2dldCI6CgkJaWYgbGVuKGFyZ3MpICE9IDIgewoJCQlnZXRDb2xvcih0aGVtZS5FcnJvckNvbG9yKS5QcmludGYoIndnZXQgY29tbWFuZCByZXF1aXJlcyBhIFVSTFxuIikKCQkJcmV0dXJuCgkJfQoJCXdnZXQoYXJnc1sxXSkKCWNhc2UgImxzIjoKCQlscygpCgljYXNlICJoZWxwIjoKCQloZWxwKCkKCWNhc2UgInZlcmZldGNoIjoKCQl2ZXJmZXRjaCgpCgljYXNlICJoZWxsbyI6IC8vIGFkZCB0aGlzIGNhc2UKCQloZWxsbygpCgljYXNlICJ0aW1lIjogLy8gYWRkIHRoaXMgY2FzZQoJCW5vdygpCglkZWZhdWx0OgoJCWNtZCA6PSBleGVjLkNvbW1hbmQoImNtZCIsICIvQyIsIGlucHV0KQoJCW91dHB1dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCgkJaWYgZXJyICE9IG5pbCB7CgkJCWdldENvbG9yKHRoZW1lLkVycm9yQ29sb3IpLlByaW50ZigiRXJyb3I6IEludmFsaWQgY29tbWFuZCEgJXYiLCAiXG4iKQoJCQlyZXR1cm4KCQl9CgkJZ2V0Q29sb3IodGhlbWUuT3V0cHV0Q29sb3IpLlByaW50ZigiJXMiLCBzdHJpbmcob3V0cHV0KSkKCX0KfQ",
+					"AQAAAAAAAAABAAAAcBQAAAAAAAAnFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					97,
+					1,
+					"paste",
+					null,
+					"AgAAACYQAAAAAAAAKxEAAAAAAAAAAAAAKxEAAAAAAAArEQAAAAAAAHwBAABmdW5jIHByaW50SVAoKSB7CglhZGRycywgZXJyIDo9IG5ldC5JbnRlcmZhY2VBZGRycygpCglpZiBlcnIgIT0gbmlsIHsKCQljb2xvci5SZWQoIk9vcHM6ICV2XG4iLCBlcnIuRXJyb3IoKSkKCQlyZXR1cm4KCX0KCglmb3IgXywgYSA6PSByYW5nZSBhZGRycyB7CgkJaWYgaXBuZXQsIG9rIDo9IGEuKCpuZXQuSVBOZXQpOyBvayAmJiAhaXBuZXQuSVAuSXNMb29wYmFjaygpIHsKCQkJaWYgaXBuZXQuSVAuVG80KCkgIT0gbmlsIHsKCQkJCWNvbG9yLkdyZWVuKCJDdXJyZW50IElQIGFkZHJlc3M6ICVzIiwgaXBuZXQuSVAuU3RyaW5nKCkpCgkJCQlyZXR1cm4KCQkJfQoJCX0KCX0KCgljb2xvci5SZWQoIk9vcHM6IENhbm5vdCBmaW5kIHRoZSBJUCBhZGRyZXNzXG4iKQp9Cg",
+					"AQAAAAAAAAABAAAAohEAAAAAAAAmEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					98,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAACsRAAAAAAAALBEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKxEAAAAAAAArEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					101,
+					1,
+					"insert",
+					{
+						"characters": "main"
+					},
+					"BAAAAIIVAAAAAAAAgxUAAAAAAAAAAAAAgxUAAAAAAACEFQAAAAAAAAAAAACEFQAAAAAAAIUVAAAAAAAAAAAAAIUVAAAAAAAAhhUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAghUAAAAAAACCFQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					103,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIIVAAAAAAAAghUAAAAAAAABAAAAbQ",
+					"AQAAAAAAAAABAAAAgxUAAAAAAACDFQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"insert",
+					{
+						"characters": "M"
+					},
+					"AQAAAIIVAAAAAAAAgxUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAghUAAAAAAACCFQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					115,
+					1,
+					"left_delete",
+					null,
+					"AQAAAP0QAAAAAAAA/RAAAAAAAAAFAAAATWFpbiA",
+					"AQAAAAAAAAABAAAAAhEAAAAAAAD9EAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					120,
+					1,
+					"paste",
+					null,
+					"AgAAAE0KAAAAAAAAdAsAAAAAAAAAAAAAdAsAAAAAAAB0CwAAAAAAAPEAAABmdW5jIGhlbHAoKSB7Cgljb2xvci5CbHVlKGBDdXN0b20gVGVybWluYWwKCUF2YWlsYWJsZSBjb21tYW5kczoKCS0gd2dldCA8dXJsPjogRmV0Y2hlcyB0aGUgY29udGVudCBvZiA8dXJsPiBhbmQgcHJpbnRzIGl0CgktIGxzOiBMaXN0cyB0aGUgZmlsZXMgaW4gdGhlIGN1cnJlbnQgZGlyZWN0b3J5CgktIGhlbHA6IFNob3dzIHRoaXMgaGVscCB0ZXh0CgktIHZlcmZldGNoOiBTaG93cyBzeXN0ZW0gaW5mb3JtYXRpb25gKQp9",
+					"AQAAAAAAAAABAAAAPgsAAAAAAABNCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					123,
+					1,
+					"insert",
+					{
+						"characters": "|"
+					},
+					"AQAAAOwDAAAAAAAA7QMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AMAAAAAAADsAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					124,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOwDAAAAAAAA7AMAAAAAAAABAAAAfA",
+					"AQAAAAAAAAABAAAA7QMAAAAAAADtAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					125,
+					1,
+					"insert",
+					{
+						"characters": "\\n"
+					},
+					"AgAAAOwDAAAAAAAA7QMAAAAAAAAAAAAA7QMAAAAAAADuAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AMAAAAAAADsAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					132,
+					1,
+					"paste",
+					null,
+					"AgAAAGERAAAAAAAAGRwAAAAAAAAAAAAAGRwAAAAAAAAZHAAAAAAAAMsCAABmdW5jIGxvYWRDb25maWcoKSAoQ29uZmlnLCBUaGVtZSkgewoJdmFyIGNvbmZpZyBDb25maWcKCglmaWxlLCBlcnIgOj0gaW91dGlsLlJlYWRGaWxlKCJjb25maWcuanNvbiIpCglpZiBlcnIgIT0gbmlsIHsKCQljb2xvci5SZWQoIkZhaWxlZCB0byByZWFkIGNvbmZpZyBmaWxlOiAldlxuIiwgZXJyKQoJCW9zLkV4aXQoMSkKCX0KCgllcnIgPSBqc29uLlVubWFyc2hhbChmaWxlLCAmY29uZmlnKQoJaWYgZXJyICE9IG5pbCB7CgkJY29sb3IuUmVkKCJGYWlsZWQgdG8gcGFyc2UgY29uZmlnIGZpbGU6ICV2XG4iLCBlcnIpCgkJb3MuRXhpdCgxKQoJfQoKCXRoZW1lIDo9IGxvYWRUaGVtZShjb25maWcuVGhlbWUpCgoJcmV0dXJuIGNvbmZpZywgdGhlbWUKfQoKZnVuYyBsb2FkVGhlbWUodGhlbWVOYW1lIHN0cmluZykgVGhlbWUgewoJdmFyIHRoZW1lIFRoZW1lCgoJZmlsZSwgZXJyIDo9IGlvdXRpbC5SZWFkRmlsZSgidGhlbWVzLyIgKyB0aGVtZU5hbWUgKyAiLmpzb24iKQoJaWYgZXJyICE9IG5pbCB7CgkJY29sb3IuUmVkKCJGYWlsZWQgdG8gcmVhZCB0aGVtZSBmaWxlOiAldiIsIGVycikKCQlvcy5FeGl0KDEpCgl9CgoJZXJyID0ganNvbi5Vbm1hcnNoYWwoZmlsZSwgJnRoZW1lKQoJaWYgZXJyICE9IG5pbCB7CgkJY29sb3IuUmVkKCJGYWlsZWQgdG8gcGFyc2UgdGhlbWUgZmlsZTogJXYiLCBlcnIpCgkJb3MuRXhpdCgxKQoJfQoKCXJldHVybiB0aGVtZQp9",
+					"AQAAAAAAAAABAAAAYREAAAAAAAAsFAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					133,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAABkcAAAAAAAAGhwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGRwAAAAAAAAZHAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "config.json",
+			"settings":
+			{
+				"buffer_size": 73,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "ip"
+					},
+					"AgAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "'"
+					},
+					"AQAAAC0AAAAAAAAALgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "'"
+					},
+					"AQAAADAAAAAAAAAAMQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"left_delete",
+					null,
+					"AQAAADAAAAAAAAAAMAAAAAAAAAABAAAAJw",
+					"AQAAAAAAAAABAAAAMQAAAAAAAAAxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC0AAAAAAAAALQAAAAAAAAABAAAAJw",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAAC0AAAAAAAAALgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAADAAAAAAAAAAMQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/andre/Desktop/Cherry Terminal",
+		"/C/Users/andre/Desktop/Cherry Terminal/Assets",
+		"/C/Users/andre/Desktop/Cherry Terminal/themes"
+	],
+	"file_history":
+	[
+		"/C/Users/andre/Desktop/Cherry Terminal/Cherry Terminal.sublime-project",
+		"/C/Users/andre/Desktop/Cherry Terminal/themes/dark.json",
+		"/C/Users/andre/Desktop/Cherry Terminal/Cherry Terminal.go",
+		"/C/Users/andre/AppData/Roaming/Sublime Text/Packages/User/go-build.sublime-build",
+		"/C/Users/andre/AppData/Roaming/Sublime Text/Packages/User/go-build",
+		"/C/Users/andre/Desktop/Cherry Terminal/config.json"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Cherry Terminal.go",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7194,
+								7194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5073.16363636,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 127.054542542
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/go-build.sublime-build",
+	"project": "Cherry Terminal.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

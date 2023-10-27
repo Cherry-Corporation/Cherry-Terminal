@@ -1,0 +1,5 @@
+{
+    "prompt": "$",
+    "initialCommands": ["ip"],
+    "theme": "dark"
+}
