@@ -201,7 +201,7 @@ func wget(url string, filename ...string) {
 }
 
 func ls() {
-	files, err := ioutil.ReadDir(".")
+	files, err := ioutil.ReadDir(currentDir)
 	if err != nil {
 		color.Red("%v", err)
 		return
@@ -387,7 +387,25 @@ func loadTheme(themeName string) Theme {
 
     return theme
 }
+var currentDir string = "."
 
+func cd(dir string, theme Theme) {
+    if filepath.IsAbs(dir) {
+        currentDir = dir
+    } else {
+        currentDir = filepath.Join(currentDir, dir)
+    }
+
+    _, err := os.Stat(currentDir)
+    if err != nil {
+        if os.IsNotExist(err) {
+            getColor(theme.ErrorColor).Printf("Directory does not exist: %s\n", dir)
+        } else {
+            getColor(theme.ErrorColor).Printf("Error accessing directory: %v\n", err)
+        }
+        currentDir = filepath.Dir(currentDir) // Change back to original directory
+    }
+}
 func executeCommand(input string, theme Theme) {
 	args := strings.Split(input, " ")
 
@@ -402,6 +420,12 @@ func executeCommand(input string, theme Theme) {
 		wget(args[1])
 	case "ls":
 		ls()
+	case "cd":
+        if len(args) != 2 {
+            getColor(theme.ErrorColor).Printf("cd command requires a directory\n")
+            return
+        }
+        cd(args[1], theme)
 	case "help":
 		help()
 	case "verfetch":
@@ -430,12 +454,13 @@ func executeCommand(input string, theme Theme) {
 		}
 		getColor(theme.OutputColor).Printf("Package installation complete\n")
 	default:
-		cmd := exec.Command("cmd", "/C", input)
-		output, err := cmd.CombinedOutput()
-		if err != nil {
-			getColor(theme.ErrorColor).Printf("Error: Invalid command! %v", "\n")
-			return
-		}
-		getColor(theme.OutputColor).Printf("%s", string(output))
-	}
+        cmd := exec.Command("cmd", "/C", input)
+        cmd.Dir = currentDir // Set the working directory
+        output, err := cmd.CombinedOutput()
+        if err != nil {
+            getColor(theme.ErrorColor).Printf("Error: Invalid command! %v", "\n")
+            return
+        }
+        getColor(theme.OutputColor).Printf("%s", string(output))
+    }
 }
