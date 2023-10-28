@@ -1,2 +1,2 @@
 # Cherry-Terminal
- A fully functional terminal in go
+A fully functional terminal in go
